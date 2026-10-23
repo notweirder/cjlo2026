@@ -1,0 +1,349 @@
+body{
+	font-family: sans-serif;
+	font-size: 2vh; 
+	text-align: center;
+	color: black;
+	background-color: #fff;
+	margin: 0 3vw;
+	    font-family: "Germania One";font-size: 22px;
+}
+
+.germania-one-regular {
+  font-family: "Germania One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+a{
+	margin:0%;
+	padding: 0%;
+}
+
+body p{
+	font-size: 2vh;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    font-size: 3rem;
+  }
+}
+
+@font-face {
+	font-family: 'Germania One';
+	src: url(fonts/Arkipelago.otf) format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+a:link, a:visited{
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover, a:active{
+	text-decoration: none;
+	text-shadow: 0 0 6px #51a46f;
+	color: black;
+}
+
+img:not(.logo){
+	width: 85vw;
+}
+
+img.logo {
+    max-width: 100%;
+		max-height: 100%;
+		padding: 0 20px;
+}
+
+a.donate-link {
+	text-decoration: none;
+}
+
+
+#donate-bundles{
+	align-self: center;
+	align-items:start;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 95vw;
+
+}
+
+
+
+.bundle span {
+	line-height: 1rem;
+}
+
+
+
+.bundle {
+	padding-bottom: 0em;
+	width: 30vh;
+	display: flex;
+	margin: 2%;
+	flex-direction: column;
+	position: relative;
+	justify-content: center;
+	align-content: center;
+	border-radius: 8%;
+}
+
+.bundle p {
+	font-size: 2vh;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin: 0;
+
+}
+
+.bundle img{
+	width:80%;
+	align-self: center;
+	justify-self: end;
+
+}
+
+.donate {
+	width: 240px;
+	height: 180px;
+	padding: 0 20px;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+#event-parent{
+	width:95vw;
+	height:200vh;
+	display: flex;
+	flex-flow: wrap;
+	flex-direction:row;
+	justify-content: center;
+	justify-self: center;
+	align-self: center;
+	margin:auto;
+}
+
+
+
+.event-container{
+	display: flex;
+	flex-flow: column;
+	width: 50vh;
+	position: relative;
+	height:auto;
+	align-items: center;
+	padding-top: 0%;
+	margin: 1%;
+	/* background: linear-gradient(transparent 50%,rgb(239, 237, 229) 50%); */
+	background-color: rgb(255, 255, 255);
+	padding-bottom: 2%;
+	border-style: solid;
+	border-color: grey;
+	
+}
+
+.event-container img:hover{
+	box-shadow: 0 0 20px green;
+}
+
+.event-container div{
+		display: inline-block;
+		margin: auto;
+		align-self: flex-end;
+		justify-self: end;
+			position: relative;
+
+}
+
+.event-container h1{
+	font-size: .5vh;
+	position: relative;
+}
+.event-container p{
+	font-size: 2.5vh;
+	margin-top: 0.5em;
+	margin-bottom: 0;
+}
+.event-container h4{
+	font-size: 2.5vh;
+	font-family: inherit;
+}
+
+
+.event-container a{
+	display: inline-block;
+		margin: auto;
+		align-self: flex-end;
+		justify-self: end;
+			position: relative;
+}
+
+
+
+
+
+#topbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 1.5rem;
+}
+
+img{
+	max-width:100%;
+}
+
+#donate-gifts {
+	background-image: url('img/2025/donate_for_gifts_unhovered.png');
+}
+
+#donate-gifts:hover {
+	background-image: url('img/2025/donate_for_gifts_hovered.png');
+}
+
+#donate-tax {
+	background-image: url('img/2025/donate_for_tax_receipt_unhovered.png');
+}
+
+#donate-tax:hover {
+	background-image: url('img/2025/donate_for_tax_receipt_hovered.png');
+}
+
+#raffle-parent {
+	display: flex;
+	font-weight: bold;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: start;
+	flex-flow: row wrap;
+	flex-direction: row;
+
+}
+
+.raffle-child{
+	display: grid;
+	place-items: center;
+	width:25vh;
+	height:20vh;
+	font-size: 2vh;
+	padding: 0.25em;
+	margin: 0.3em;
+	border-style: solid;
+	border-color: grey;
+	font-family: 'Germania One', Courier, monospace;
+	font-weight:500;
+
+}
+
+.raffle-child p{
+	font-size: 2vh;
+	display: flex;
+	margin-inline: auto;
+}
+
+div.caption {
+	font-style: italic;
+	font-size: medium;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2vw;
+}
+
+a.legal:link{
+    text-decoration: none;
+	color: black;
+}
+button {
+    border: none;
+    color: red;
+    text-decoration: none;
+    display: inline-block;
+	padding: 1px;
+}
+
+h1{
+ font-family: 'Germania One';
+ font-weight: bold;
+	float: left;
+	text-align: center;
+	font-size: 2.75rem;
+	text-transform: uppercase;
+	color: black;
+}
+
+h4{
+	font-family: 'Germania One', Courier, monospace;
+	text-align: center;
+	font-size: 2.5rem;
+	margin-bottom: 0.67em;
+	text-transform: uppercase;
+	color: black;
+}
+#generated{
+  max-width: 85%;
+  font-size: 90px;
+  font-size: 5vw; 
+  line-height:9.5vh;
+  font-weight: bold;
+  text-shadow: 3px 3px 3px #CCC;
+  text-align: center;
+  margin: 40px auto;
+  text-transform: lowercase;
+}
+#bottoms{
+	width: 100%;
+	text-align: center;
+}
+#smalls{
+	font-style: italic;
+	font-size: xx-large;
+	text-align: center;
+	line-height: 1px;
+}
+#legals{
+  	font-weight: bold;
+	font-size: small;
+	bottom: 20px;
+	text-align: center;
+}
+
+
+
+.cinzel-decorative-regular {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cinzel-decorative-bold {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cinzel-decorative-black {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.header{
+	scale:90%;
+}
+
+#override:hover{
+	text-shadow: #000000;
+}
