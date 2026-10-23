@@ -199,19 +199,19 @@ img{
 }
 
 #donate-gifts {
-	background-image: url('img/2025/donate_for_gifts_unhovered.png');
+	background-image: url('FDImages2026/donate_for_gifts_unhovered.png');
 }
 
 #donate-gifts:hover {
-	background-image: url('img/2025/donate_for_gifts_hovered.png');
+	background-image: url('FDImages2026/donate_for_gifts_hovered.png');
 }
 
 #donate-tax {
-	background-image: url('img/2025/donate_for_tax_receipt_unhovered.png');
+	background-image: url('FDImages2026/donate_for_tax_receipt_unhovered.png');
 }
 
 #donate-tax:hover {
-	background-image: url('img/2025/donate_for_tax_receipt_hovered.png');
+	background-image: url('FDImages2026/donate_for_tax_receipt_hovered.png');
 }
 
 #raffle-parent {
